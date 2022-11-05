@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "Grupo trabalho IOT",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": -2.84,
+      "left": 5.7,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    { "type": "wokwi-slide-switch", "id": "sw1", "top": -73.27, "left": -57.06, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -64.88,
+      "left": -31.27,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": -69.39,
+      "left": -90.96,
+      "attrs": { "color": "blue" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led3",
+      "top": -90.31,
+      "left": -116.06,
+      "attrs": { "color": "orange" }
+    }
+  ],
+  "connections": [
+    [ "led2:C", "pico:GND.1", "black", [ "v0" ] ],
+    [ "led1:C", "pico:GND.1", "black", [ "v0" ] ],
+    [ "led2:A", "pico:GP1", "blue", [ "v0" ] ],
+    [ "led1:A", "pico:GP2", "blue", [ "v0" ] ],
+    [ "led3:C", "pico:GND.1", "black", [ "v0" ] ],
+    [ "led3:A", "pico:GP3", "blue", [ "v0" ] ],
+    [ "sw1:3", "pico:GND.1", "black", [ "v0" ] ],
+    [ "sw1:2", "pico:GP4", "green", [ "v0" ] ],
+    [ "sw1:1", "pico:3V3", "green", [ "v0" ] ]
+  ]
+}
