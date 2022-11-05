@@ -1,0 +1,31 @@
+Capítulo 1. Descrição do sistema.
+--------------------------------------------------------------
+
+Medidor de temperatura para agropecuária, com sistema de LEDs
+para demonstrar sprinkter ligado,temperatura amena e temperatura 
+perigosa para as plantas.
+
+. LED Amarelo acionado indica que os sprinkter estão ligados.
+
+. LED Azul piscando indica uma temperatura segura para o
+  desenvolvimento das plantas.
+
+. LED Vermelho piscando indica uma temperatura perigosa para o
+  desenvolvimento das plantas.
+  
+  
+Capítulo 2. Itens utilizados no sistema.
+--------------------------------------------------------------
+
+. 3 LEDs
+. Slide Switch 
+. Placa Raspberry Pi Pico.
+
+
+Capítulo 3. Integrantes.
+--------------------------------------------------------------
+
+. Nathan Cordeiro
+. Hannah
+. Brenno
+. Mario Luís 
