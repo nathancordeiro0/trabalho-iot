@@ -20,7 +20,7 @@ while True:
   
     print(f'Marcando no momento {temperatura:.2f}°C')
   
-    if temperatura > 500 :               # Luz azul piscando temperatura amena. 
+    if temperatura > 500 :              # Luz azul piscando temperatura amena. 
       led = Pin(3, Pin.OUT)
       led.off()
 
@@ -28,7 +28,7 @@ while True:
       led.toggle()
       utime.sleep(1)
 
-    else:                                # Luz vermelha piscando temperatura perigosa para as plantas.
+    else:                               # Luz vermelha piscando temperatura perigosa para as plantas.
       led = Pin(3, Pin.OUT)
       led.off()
 
