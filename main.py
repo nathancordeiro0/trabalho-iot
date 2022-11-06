@@ -19,9 +19,9 @@ while True:
     temperatura = 27 - (leitura - 0.706)/0.001721
   
     print(f'Marcando no momento {temperatura:.2f}°C')
-  
-    if temperatura > 500 :              # Luz azul piscando temperatura amena. 
-      led = Pin(3, Pin.OUT)
+     
+    if temperatura > 500 :              #Temperatura Hipotética 
+      led = Pin(3, Pin.OUT)             # Luz azul piscando temperatura amena.
       led.off()
 
       led = Pin(1, Pin.OUT)
